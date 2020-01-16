@@ -1,9 +1,21 @@
-*{
+body{
 	width: 1160px;
 	height: 750px;
+	
+	/*padding-left: 50px;
+	padding-right: 50px;*/
+	margin: auto;
+}
+header{
 	background-color: #d2d2d2;
-	padding-left: 50px;
-	padding-right: 50px;
+}
+footer{
+	background-color: #d2d2d2;
+}
+section{
+	/*margin-left: 50px;*/
+	/*margin-right: 0;*/
+	/*margin-top: 0;*/
 }
 div{
 	padding: 0;
@@ -15,7 +27,7 @@ div{
 	padding: 30px 17px 29.5px 370px;
 	margin-right: 50px;
 }*/
-.Column{
+/*.Column{
 	width: 320px;
 }
 .Padding
@@ -27,7 +39,26 @@ div{
 }
 .FloatRight{
 	float: right;
+}*/
+header div{
+	width: 162px;
+	margin-left: 497px;
+	margin-top: -3px;
+	font-size: 18px;
+	/*font-family: ﻿HelveticaNeueLTPro-Bd, ﻿Roboto-Medium, ﻿MyriadPro-Regular, ﻿AdobeInvisFont;*/
+	color: rgba(90, 154, 168, 255);
 }
-.TableBorderWhite
+#touch50px{
+	width: 292px;
+	height: 36px;
+	margin-top: 30px;
+	margin-left: 430px;
+}
+#Group71X{
+	width: 265px;
+	height: 64px;
+	margin-top: 26px;
+	margin-left: 57px;
+}
 
 
