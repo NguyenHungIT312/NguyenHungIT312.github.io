@@ -12,9 +12,12 @@ header{
 main{
 	background-color: #d2d2d2;
 	padding-left: 50px;
+	padding-top: 35px;
+	height: 591.5px;
 }
 footer{
 	background-color: #d2d2d2;
+	clear: both;
 }
 section{
 	/*margin-left: 50px;*/
@@ -66,6 +69,11 @@ header div{
 }
 .section-left div{
 	/*width: 342px;*/
+	padding-right: 25px;
+}
+.section-center{
+	padding-left: 25px;
+	padding-right: 25px;
 }
 /*.section-left img{*/
 .left-qs-button{
@@ -124,4 +132,29 @@ input:focus{
 .po-re-ri39px{
 	position: relative;
 	right: 39px; 
+}
+.circle-button2121{
+	border-radius: 50%;
+	width: 21px;
+	height: 21px;
+}
+.active{
+	color: #5a9aa8;
+}
+.bg-active{
+	background-color: #5a9aa8;
+}
+.float-right{
+	float: right;
+}
+.float-left{
+	float: left;
+}
+.box-grid{
+  float: left;
+  width: 33.33%;
+  /*padding: px;*/
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #6d6e76;
 }
