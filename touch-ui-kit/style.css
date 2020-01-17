@@ -76,13 +76,52 @@ header div{
 	border-width: 0; 
 	padding: 0;
 }
-.left-qs-button:focus{
+.clear-ow{
 	outline-width: 0;
 }
+.clear-ow:focus{
+	outline-width: 0;
+}
+.clear-bw{
+	border-width: 0;
+}
 .section-left-qs{
-	width: 320px;
+	width: 302px;
 	height: 50px;
 	padding-left: 18px;
+	border-width: 0;
 }
-
-
+.frames{
+	width: 302px;
+	height: 50px;
+	border-width: 0;
+	padding-left: 18px;
+}
+input{
+	/*outline-width: 0;*/
+}
+input:focus{
+	outline-color: #5a9aa8;
+}
+.mb10px{
+	margin-bottom: 10px;
+}
+.p0px{
+	padding: 0;
+}
+.circle{
+	border-radius: 50%;
+}
+.clear-border{
+	border-color: none;
+}
+.clear-bg-button{
+	background-color: none;
+}
+.white-bg-button{
+	background-color: white;
+}
+.po-re-ri39px{
+	position: relative;
+	right: 39px; 
+}
