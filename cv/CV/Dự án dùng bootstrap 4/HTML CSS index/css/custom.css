@@ -1,0 +1,336 @@
+.main-menu nav > ul > li > a{
+	    text-transform: none;
+	    padding: 9px 31px;
+}
+.main-menu nav > ul > li > a:hover{
+	background: #79B942;
+	color: white;
+}
+.footer-img a::before{
+	background: #79B942;
+}
+.main-menu nav > ul > li{
+	padding: 46px 0;
+}
+.main-menu nav > ul > li.active > a:hover{
+	background: white;
+}
+.main-menu nav > ul > li:hover > a{
+	/*background: #79B942;*/
+	background: #79B942;
+	color: white;
+}
+.main-menu nav > ul > li.active:hover > a{
+	background: white;
+}
+.main-menu nav > ul > li.active > a{
+	/*color: #888484;*/
+	/*color: #79B942;*/
+	color: #2F8357;
+}
+.logo a img{
+	width: 150px;
+	height: 90px;
+	position: relative;
+	top: -11px;
+}
+#section-title h1{
+	position: relative;
+	top: 30px;
+	font-weight: 600;
+}
+.footer-logo a img{
+	width: 150px;
+	height: 90px;
+}
+.btn{
+	background: #2F8357;
+}
+.gray-bg{
+	background: #79B942;
+}
+.slider-video a{
+	border: solid #2F8357;
+}
+.slider-video a:hover{
+	background: #2F8357;
+}
+.slider-active .slick-dots li.slick-active button{
+	background: #2F8357;
+	
+}
+.slider-active .slick-dots li button{
+	border: solid #2F8357;
+}
+.special-menu-button a{
+	background: #2F8357;
+}
+.benefits-tab li a.active{
+	color: #2F8357;
+}
+.benefits-tab li a:hover{
+	color: #2F8357;
+}
+.benefits-section span {
+	color: #2F8357;
+}
+.yellow-bg{
+	background: #2F8357;
+}
+.special-menu-tab li a.active{
+	color: #2F8357;
+}
+.section-title span{
+	color: #2F8357;
+}
+.news-text span{
+	color: #2F8357;
+}
+.footer-link li i{
+	color: #2F8357;
+}
+.footer-icon a:hover{
+	color: #2F8357;
+}
+.footer-menu li a:hover{
+	color: #2F8357;
+}
+.footer-title::before{
+	background: #2F8357;
+}
+.mean-container a.meanmenu-reveal{
+	position: absolute;
+	top: -34px;
+}
+.service-text h3{
+	color: white;
+}
+.service-text p{
+	color: white;
+}
+#scrollUp:hover{
+	background: #7DBA2F;
+<<<<<<< Updated upstream:html/HTML CSS index/custom.css
+=======
+}
+#menu_col ul li a{
+	/*margin-left: 63px;*/
+}
+#menu_col #v-pills-tab{
+	position: fixed;
+	top: 124px;
+	/*width: 168px;*/
+}
+.news-text p{
+	/*width: 770px;*/
+
+}
+.news-text h1{
+	font-weight: bold;
+	font-family: sans-serif;
+}
+.news-text .blockquote p{
+	/*width: 760px;*/
+}
+#Personnel .container .row{
+	/*width: 776px;*/
+}
+#form-control{
+	border-radius: 20px;
+	
+	
+}
+#btn{
+	padding-left: 27px;
+}
+#myTabContent img{
+	width: 104%;
+}
+#pagination{
+	/*position: relative;
+    top: 294px;
+    right: 950px;*/
+}
+#v-pills-tab a{
+	color: white;
+	background-color: black;
+}
+#tea0 img{
+	width: 100%;
+	height: 543px;
+}
+#OrganicMatcha{
+	text-align: center;
+}
+#OrganicMatcha .yellow{
+	background: yellow;
+    height: 1px;
+    width: 35%;
+    margin: auto;
+}
+#OrganicMatcha h3{
+	margin-top: 16px;
+}
+#twelve{
+	margin-left: 10px;
+}
+
+
+.dd-menu a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.dd-menu a:hover {
+  color: #222222
+}
+
+/* Dropdown */
+
+.dropdown {
+  display: inline-block;
+  position: relative;
+}
+
+.dd-button {
+  display: inline-block;
+  border: 1px solid gray;
+  border-radius: 4px;
+  padding: 10px 30px 10px 20px;
+  background-color: #ffffff;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.dd-button:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  width: 0; 
+  height: 0; 
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid black;
+}
+
+.dd-button:hover {
+  background-color: #eeeeee;
+}
+
+
+.dd-input {
+  display: none;
+}
+
+.dd-menu {
+  position: absolute;
+  top: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 0;
+  margin: 2px 0 0 0;
+  box-shadow: 0 0 6px 0 rgba(0,0,0,0.1);
+  background-color: #ffffff;
+  list-style-type: none;
+}
+
+.dd-input + .dd-menu {
+  display: none;
+} 
+
+.dd-input:checked + .dd-menu {
+  display: block;
+} 
+
+.dd-menu li {
+  padding: 10px 20px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.dd-menu li:hover {
+  background-color: #f6f6f6;
+}
+
+.dd-menu li a {
+  display: block;
+  margin: -10px -20px;
+  padding: 10px 20px;
+}
+
+.dd-menu li.divider{
+  padding: 0;
+  border-bottom: 1px solid #cccccc;
+}
+.dropdown{
+	margin-top: 16px;
+}
+#ex01{
+	margin: auto;
+}
+#pro-details-action{
+	margin-left: 35%;
+}
+#OrganicMatcha .fab, .fa{
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+#origin{
+	border: solid 1px yellow;
+	text-align: center;
+	border-radius: 20px;
+}
+#origin h2{
+	margin-bottom: 0;
+}
+#origin p{
+	margin-bottom: 32px;
+}
+#bre-pro{
+	border: solid 1px yellow;
+	text-align: center;
+	border-radius: 20px;
+}
+#bre-pro h2{
+	margin-bottom: 0;
+	margin-top: 26px;
+}
+#bre-pro p{
+	margin-bottom: 32px;
+}
+#OrganicMatcha .fa-facebook{
+  /*background: #3B5998;
+  color: white;*/
+}
+#RealatedProducts {
+	border-top: solid 1px yellow;
+	border-bottom: solid 1px yellow;
+
+}
+#RealatedProducts img{
+	width: 100%;
+}
+.d7d7d7{
+	background-color: #ececec;
+}
+#usr{
+	width: 20%;
+	margin: auto;
+}
+@media only screen and (max-width: 991px){
+	#v-pills-tab{
+		display: none;
+
+	}
+	#v-pills-home{
+		display: none;
+	}
+	
+
+}
