@@ -1,0 +1,33 @@
+*{
+	width: 1160px;
+	height: 750px;
+	background-color: #d2d2d2;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+div{
+	padding: 0;
+}
+/*.x{
+	padding: 0 50px 0 50px;
+}
+.y{
+	padding: 30px 17px 29.5px 370px;
+	margin-right: 50px;
+}*/
+.Column{
+	width: 320px;
+}
+.Padding
+.MarginRight{
+	margin-right: 50px;
+}
+.FloatLeft{
+	float: left;
+}
+.FloatRight{
+	float: right;
+}
+.TableBorderWhite
+
+
