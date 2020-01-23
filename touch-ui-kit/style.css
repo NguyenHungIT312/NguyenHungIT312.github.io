@@ -9,6 +9,10 @@ body{
 header{
 	background-color: #d2d2d2;
 }
+main{
+	background-color: #d2d2d2;
+	padding-left: 50px;
+}
 footer{
 	background-color: #d2d2d2;
 }
@@ -59,6 +63,26 @@ header div{
 	height: 64px;
 	margin-top: 26px;
 	margin-left: 57px;
+}
+.section-left div{
+	/*width: 342px;*/
+}
+/*.section-left img{*/
+.left-qs-button{
+	position: relative; 
+	right: 39px; 
+	background: white; 
+	border-color: white; 
+	border-width: 0; 
+	padding: 0;
+}
+.left-qs-button:focus{
+	outline-width: 0;
+}
+.section-left-qs{
+	width: 320px;
+	height: 50px;
+	padding-left: 18px;
 }
 
 
