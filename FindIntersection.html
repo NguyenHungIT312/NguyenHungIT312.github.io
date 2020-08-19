@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+<script>
+function f(x)
+{
+var x1 = x[0].split(", ");
+var x2 = x[1].split(", ");
+var y=[];
+for(let i=0;i<x1.length;i++)
+{
+var z1 = x1[i];
+for(let j=0;j<x2.length;j++)
+{
+var z2 = x2[j];
+if(z1 === z2)
+{
+y.push(z1);
+break;
+}
+}
+}
+if(y.length === 0)
+{
+return false;
+}
+else
+{
+return y.join(",");
+}
+}
+</script>
+</script>
+</body>
+</html>
